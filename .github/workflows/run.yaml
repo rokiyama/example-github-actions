@@ -8,4 +8,5 @@ jobs:
       - run: |
           echo "Hello"
           ls -la
-          ./a.sh
+          ./success.sh
+          ./fail.sh
