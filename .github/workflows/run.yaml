@@ -9,4 +9,4 @@ jobs:
           echo "Hello"
           ls -la
           ./success.sh
-          ./fail.sh
+          ./fail.sh || echo 'ok'
