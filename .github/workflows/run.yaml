@@ -1,9 +1,9 @@
 name: example-github-actions-run
 on: [push]
 jobs:
-  check-bats-version:
+  hello:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello"
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - run: ls -la
